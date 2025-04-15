@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Мотокоса Dnipro-M 43",
+      "price": 5704,
+      "sale_price": 4799
+    },
+    {
+      "id": 2,
+      "name": "Акумуляторний тример Dnipro-M DTC-200",
+      "price": 2499,
+      "sale_price": 1799
+    },
+    {
+      "id": 3,
+      "name": "Зарядний пристрій Dnipro-M FC-230",
+      "price": 542,
+      "sale_price": 488
+    },
+    {
+      "id": 4,
+      "name": "Акумуляторна батарея Dnipro-M BP-122 2.0 Аг",
+      "price": 800,
+      "sale_price": 799
+    }
+  ]
+  
