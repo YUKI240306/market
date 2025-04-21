@@ -1,15 +1,16 @@
 /* Загальні стилі */
 body {
-    /* display: flex; */
-    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
     font-family: "Arial", sans-serif;
     background-color: #f9f9f9;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     color: #333;
   }
 
-  
+
+
   h1 {
     text-align: center;
     margin-top: 40px;
@@ -18,10 +19,16 @@ body {
     background-color: red;
     width: 400px;
     border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
 
-content {
-    width: 30px;
+.content {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
   }
   
   /* Контейнер для всіх карток */
@@ -76,17 +83,33 @@ content {
     height: 70px;
   }
 
-.pricee{
+  
+  .old-price {
     text-decoration: line-through;
-}
-
-  /* Footer */
-  footer {
-    background-color: #eee;
-    padding: 20px;
-    text-align: center;
-    margin-top: 30px;
+    color: #888;
     font-size: 14px;
-    color: #666;
   }
   
+  .new-price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .coupon-price {
+    background: #c41c1c;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+
+
+.pictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+

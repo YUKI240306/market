@@ -1,0 +1,76 @@
+<div class="card">
+  <p class="category">Мотокоса</p>
+  <p class="model">43</p>
+  <img src="trimmer.png" alt="Мотокоса" class="product-img">
+  <div class="icons">
+    <span class="icon paw">8</span>
+    <span class="icon chart">6</span>
+  </div>
+  <div class="price-block">
+    <p class="old-price">5 499 грн</p>
+    <p class="new-price">4 497 грн</p>
+  </div>
+  <div class="coupon-price">
+    <span>ціна за купоном</span>
+    <span class="price">4 395 грн</span>
+  </div>
+</div>
+
+<p class = "pricee">${k.price}грн</p>
+<p class = "sale_price">${k.sale_price}грн</p>
+
+
+
+  
+  .paw::before {
+    content: "🐾"; /* Замінити на зображення або SVG */
+  }
+  
+  .chart::before {
+    content: "🟡"; /* Замінити на зображення або SVG */
+  }
+  
+  .price-block {
+    margin: 10px 0;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .new-price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .coupon-price {
+    background: #c41c1c;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .pricee{
+    text-decoration: line-through;
+}
+
+.sale_price{
+    
+}
+
+/* Footer
+footer {
+  /* justify-self: center;
+  align-self: flex-end;
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666; */
+}
+ */
