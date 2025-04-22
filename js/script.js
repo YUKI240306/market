@@ -43,3 +43,4 @@
     console.error("Error fetching k data:", error);
   });
 
+  document.querySelector("#fixed-footer").classList.add("fixed-footer")
