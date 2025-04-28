@@ -4,7 +4,9 @@
       "name": "Мотокоса Dnipro-M 43",
       "pricer": 5704,
       "sale_price": 4799,
-      "price": 893
+      "price": 893,
+      "mono": 6,
+      "pb": 20
     },
     {
       "id": 2,

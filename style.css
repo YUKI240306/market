@@ -116,6 +116,7 @@ body {
     padding: 15px 20px;
     box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
     font-size: 14px;
+    width: 500px;
   }
 
   .credits p {
@@ -139,10 +140,31 @@ body {
   }
 
 
-.pictures{
+
+.parts-pay {
+    margin-top: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    align-items: flex-end; 
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .pay {
+    transition: transform 0.3s ease;
+    transform-origin: center;
+  }
+  .pay:hover {
+    transform: scale(1.1); }
+  
+  .parts-pay img {
+    height: 20px;
+  }
+  
+  .parts-pay div {
+    width: 250px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.9em;
     justify-content: flex-end;
-
-}
-
+  }

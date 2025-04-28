@@ -17,10 +17,9 @@
           <h3 class = "k-name">${k.name}</h3>
           <img class = "U" src='img/${index + 1}.jpeg' alt="${k.name}" onerror="this.onerror=null;this.src='#';" />
 
-          <div class = "pictures">
-          <div class = "paw><img class = "paws" src='img/paws.png' alt="paw" onerror="this.onerror=null;this.src='#';" /></div>
-          <div class = "circul>"<img class = "paws" src='#' alt="paw" onerror="this.onerror=null;this.src='#';" /></div>
-
+          <div class="parts-pay">
+            ${k.mono ? `<div class="pay"><img src="img/paws.png" alt="">${k.mono}</div>` : ''}
+            ${k.pb ? `<div class="pay"><img src="img/circular-diagram-2.png" alt="">${k.pb}</div>` : ''}
           </div>
 
           <div class="price-block">
